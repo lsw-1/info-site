@@ -4,7 +4,5 @@ import convert from 'htmr'
 import './Home.css'
 
 export default withRouteData(({ jdown, reactStatic }) => (
-  <div className="container">
-    <section className="content">{convert(jdown.contents)}</section>
-  </div>
+  <section className="home-content">{convert(jdown.contents)}</section>
 ))
