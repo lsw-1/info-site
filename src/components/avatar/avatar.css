@@ -1,0 +1,14 @@
+.avatar {
+  bottom: -75px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+@media screen and (max-width: 800px) {
+  .avatar {
+    bottom: -50px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+  }
+}
