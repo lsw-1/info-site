@@ -54,7 +54,7 @@ img {
 }
 
 .bonnier-wrapper {
-  width: 40%;
+  width: 600px;
 }
 
 @media screen and (max-width: 800px) {
